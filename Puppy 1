@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Selling Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Dog Selling Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Dogs for Sale</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Featured Dogs</h2>
+      <div class="card">
+        <img src="images/dog1.jpg" alt="Dog 1">
+        <h3>Dog 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend dolor. Fusce ultricies leo a odio faucibus, sed luctus arcu tincidunt. Ut ac lacus sed ante lacinia convallis.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="images/dog2.jpg" alt="Dog 2">
+        <h3>Dog 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend dolor. Fusce ultricies leo a odio faucibus, sed luctus arcu tincidunt. Ut ac lacus sed ante lacinia convallis.</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="images/dog3.jpg" alt="Dog 3">
+        <h3>Dog 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut eleifend dolor. Fusce ultricies leo a odio faucibus, sed luctus arcu tincidunt. Ut ac lacus sed ante lacinia convallis.</p>
+        <button>Buy Now</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Dog Selling Website</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
